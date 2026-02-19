@@ -1,4 +1,3 @@
-
 class OOPSBanner
 {
     public static void main(String args[]) {
@@ -7,7 +6,5 @@ class OOPSBanner
         System.out.println("*     *  *     *   *****    ***** ");
         System.out.println("*     *  *     *   *            * ");
         System.out.println(" *****    *****    *        ***** ");
-        System.out.println(" *****    *****    *        ***** ");
-        System.out.println(" *****    *****    *        ***** ");
-    }
+
 }
