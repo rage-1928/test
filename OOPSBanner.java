@@ -1,16 +1,40 @@
-class OOPSBanner {
+public class OOPSBanner {
     public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
-            if (i == 1)
-                System.out.println(" *****    *****    *****    ***** ");
-            else if (i == 3)
-                System.out.println("*     *  *     *   *****    ***** ");
-            else if (i == 2)
-                System.out.println("*     *  *     *   *    *   *     ");
-            else if(i == 4)
-                System.out.println("*     *  *     *   *            * ");
-            else
-                System.out.println(" *****    *****    *        ***** ");
+        String[] lines = {
+            String.join("  ",
+                " *** ",
+                " *** ",
+                "**** ",
+                " ****"
+            ),
+            String.join("  ",
+                "*   *",
+                "*   *",
+                "*   *",
+                "*    "
+            ),
+            String.join("  ",
+                "*   *",
+                "*   *",
+                "**** ",
+                " *** "
+            ),
+            String.join("  ",
+                "*   *",
+                "*   *",
+                "*    ",
+                "    *"
+            ),
+            String.join("  ",
+                " *** ",
+                " *** ",
+                "*    ",
+                "**** "
+            )
+        };
+        for(String line : lines)
+        {
+            System.out.println(line);
         }
     }
 }
